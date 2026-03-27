@@ -4,7 +4,16 @@ export default function QRCodeCard() {
   return (
     <section className="flex max-w-80 flex-col gap-6 rounded-[20px] bg-white p-4 pb-10">
       <figure className="w-full max-w-72 overflow-hidden rounded-[10px]">
-        <img src={qrImage} alt="QR code" className="size-full object-cover" />
+        <img
+          src={qrImage}
+          alt="QR code"
+          width="288"
+          height="288"
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
+          className="size-full object-cover"
+        />
       </figure>
       <div className="space-y-4 px-4 text-center">
         <h1 className="text-preset-1 text-slate-900">
