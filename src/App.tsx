@@ -6,11 +6,11 @@ export default function App() {
       <main>
         <QRCodeCard />
       </main>
-      <footer className="text-preset-2 absolute bottom-4 w-full text-center text-slate-500">
+      <footer className="text-preset-2 absolute bottom-4 w-full text-center font-light text-slate-900">
         Challenge by{" "}
         <a
           href="https://www.frontendmentor.io?ref=challenge"
-          className="font-bold text-slate-900"
+          className="font-bold"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -19,7 +19,7 @@ export default function App() {
         . Coded by{" "}
         <a
           href="https://www.linkedin.com/in/abdelrhman-vanta/"
-          className="font-bold text-slate-900"
+          className="font-bold"
         >
           Abdelrhman Abdelaal
         </a>
