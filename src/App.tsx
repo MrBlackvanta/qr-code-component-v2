@@ -10,8 +10,9 @@ export default function App() {
         Challenge by{" "}
         <a
           href="https://www.frontendmentor.io?ref=challenge"
-          target="_blank"
           className="font-bold text-slate-900"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Frontend Mentor
         </a>

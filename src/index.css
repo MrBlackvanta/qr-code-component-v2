@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 @import "tailwindcss";
 
-@theme {
+:root {
   --color-white: hsl(0, 0%, 100%);
 
   --color-slate-300: hsl(212, 45%, 89%);
