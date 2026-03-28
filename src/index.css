@@ -1,21 +1,15 @@
 @import "tailwindcss";
 
 :root {
+  --font-outfit: "Outfit", sans-serif;
+}
+
+@theme {
   --color-white: hsl(0, 0%, 100%);
 
   --color-slate-300: hsl(212, 45%, 89%);
   --color-slate-500: hsl(216, 15%, 48%);
   --color-slate-900: hsl(218, 44%, 22%);
-
-  --font-outfit: "Outfit", sans-serif;
-}
-
-@theme {
-  --color-white: var(--color-white);
-
-  --color-slate-300: var(--color-slate-300);
-  --color-slate-500: var(--color-slate-500);
-  --color-slate-900: var(--color-slate-900);
 }
 
 body {
