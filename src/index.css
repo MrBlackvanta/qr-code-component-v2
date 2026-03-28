@@ -10,6 +10,14 @@
   --font-outfit: "Outfit", sans-serif;
 }
 
+@theme {
+  --color-white: var(--color-white);
+
+  --color-slate-300: var(--color-slate-300);
+  --color-slate-500: var(--color-slate-500);
+  --color-slate-900: var(--color-slate-900);
+}
+
 body {
   font-family: var(--font-outfit);
 }
